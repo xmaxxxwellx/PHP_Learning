@@ -24,7 +24,7 @@
 <body>
     <div style="margin-top: 150px" class="container">
         <div class="rov">
-            <form method="post" action="post.php?id=12">
+            <form method="post" action="adduser.php">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -32,7 +32,11 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName">Name</label>
+                    <input name="name" type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
                 </div>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
