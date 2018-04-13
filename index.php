@@ -18,25 +18,25 @@ echo '</br>';
 echo $as_arr[7];
 echo '</br></br>';
 
-//for($i = 0; $i < count($arr_sign); $i++){
-//    echo $arr_sign[$i].', ';
-//}
-//
-//echo '</br></br>';
-//foreach ($arr_sign as $i){
-//    echo $i;
-//    echo '</br>';
-//}
-//
-//echo '</br></br>';
-//foreach ($as_arr as $key => $i){
-//    echo $key;
-//    echo '</br>';
-//}
+for($i = 0; $i < count($arr_sign); $i++){
+    echo $arr_sign[$i].', ';
+}
 
-var_dump($arr_sign);
-//die();
-echo '</br>';
-var_dump($b);
-echo '</br>';
-var_dump($_GET);
+echo '</br></br>';
+foreach ($arr_sign as $i){
+    echo $i;
+    echo '</br>';
+}
+
+echo '</br></br>';
+foreach ($as_arr as $key => $i){
+    echo $key;
+    echo '</br>';
+}
+
+//var_dump($arr_sign);
+////die();
+//echo '</br>';
+//var_dump($b);
+//echo '</br>';
+//var_dump($_GET);
